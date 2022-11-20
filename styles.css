@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.mobile-box {
+  width: 26rem;
+  height: 45rem;
+  border: 15px solid;
+  margin: 5vh auto;
+  border-radius: 55px;
+  overflow: hidden;
+  position: relative;
+}
+
+.camera {
+  width: 16rem;
+  height: 2rem;
+  background-color: black;
+  margin: auto;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  position: absolute;
+  top: 0;
+  left: 4.4rem;
+}
+
+.background-heading {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 20rem;
+  background-color: #5288f4;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 28%);
+  z-index: -1;
+}
+
+.card-h3 {
+  color: white;
+  margin-top: 55px;
+  transform: translateX(150px);
+}
+
+#card {
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+.info-card {
+  opacity: 0.7;
+  font-weight: 500;
+}
+
+.title-H3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.check-box {
+  margin-top: 50px;
+  padding: 0 15px;
+}
+
+.text-box__check {
+  transform: translateY(15px);
+  margin-left: -30px;
+}
+
+.form-check {
+  font-size: 35px;
+}
+
+.lock-img {
+  transform: translateY(5px);
+}
+
+.card-information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
